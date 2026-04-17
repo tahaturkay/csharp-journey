@@ -1,0 +1,32 @@
+# --- C# / .NET ---
+[Bb]in/
+[Oo]bj/
+out/
+publish/
+*.exe
+*.dll
+*.pdb
+*.user
+
+# --- VS Code ---
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# --- macOS System Files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+Network Trash Folder
+Temporary Items
+.Spotlight-V100
+.Trashes
+
+# --- MSBuild / Rider / Visual Studio ---
+*.sln
+*.csproj.user
+.idea/
